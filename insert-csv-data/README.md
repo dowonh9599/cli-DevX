@@ -43,7 +43,7 @@ The script demonstrates loading environment variables from a separate `.env` fil
    - Execute the script from your terminal:
 
    ```bash
-   bash import_csv_data.sh
+   ./run.sh
    ```
 
 ## Security Considerations

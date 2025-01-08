@@ -5,7 +5,7 @@ This script is designed to load environment variables from a specified `.env` fi
 ## Usage
 
 ```bash
-source load-env.sh /path/to/.env
+source run.sh /path/to/.env
 ```
 
 ## Arguments
@@ -53,7 +53,7 @@ source load-env.sh /path/to/.env
 3. In your shell script, source the `load-env.sh` script, providing the path to your `.env` file as an argument:
 
 ```bash
-source load-env.sh .env  # Assuming your .env file is in the current directory
+source run.sh .env  # Assuming your .env file is in the current directory
 ```
 
 Now, you can access the loaded environment variables within your shell script using their corresponding names (e.g., `$POSTGRES_USER`, `$POSTGRES_PASSWORD`).
