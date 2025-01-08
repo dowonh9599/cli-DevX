@@ -21,7 +21,7 @@ _start() {
       colima start --cpu 4 --memory 8 --arch aarch64 --vm-type qemu
       ;;
     vz-rosetta)
-      colima start --cpu 4 --memory 8 --arch aarch64 --vm-type=vz --vz-rosetta
+      colima start --cpu 4 --memory 8 --arch aarch64 --vm-type=vz --vz-rosetta --dns 8.8.8.8 --dns 8.8.4.4
       ;;
     *)
       echo "Invalid VM type: $vm_type"
